@@ -1,0 +1,198 @@
+/* RESET */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* style */
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+.row{
+    display: flex;
+    padding: 10px;
+}
+
+.row-reverse{
+    display: flex;
+    padding: 10px;
+    flex-direction: row-reverse;
+}
+
+.column{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.col-15{
+    width: 10%;
+    align-items: stretch;
+}
+
+
+.col-30{
+    width: 30%;
+}
+
+.col-40{
+    width: 150px;
+    height: 200px;
+    align-items: stretch;
+}
+
+.col-50{
+    width: 50%;
+}
+
+.col-100{
+    width: 500px;
+    height: 500px;
+}
+
+.taste{
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.color-white{
+    color: white;
+}
+
+.center-content{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.between-content{
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section{
+    margin-bottom: 100px;
+}
+
+
+/* DEBUG */
+
+
+/* HEADER*/
+
+.divisor-header{
+    justify-content: space-between;
+}
+
+.nav-bar{
+    justify-content: space-between;
+    color: white;
+}
+
+header{
+    background-color: #255EE9;
+}
+
+/* MAIN */
+
+
+.bg-hero{
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+}
+
+.bg-white{
+    background-color: white;
+    color: black;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-gray{
+    background-color: rgb(216, 216, 216);
+}
+
+.black-col{
+    width: 500px;
+    height: 200px;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-greenlight{
+    background-color: greenyellow;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.hero > * {
+    padding: 5px;
+}
+
+.hero-padding{
+    padding: 10px;
+}
+
+.row img{
+    max-width: 50%;
+}
+
+.text-container{
+    padding: 20px;
+    justify-content: center;
+    max-width: 200px;
+    margin: 0;
+    padding: 10px;
+}
+
+.text-container > *{
+    padding: 10px;
+}
+
+/* FOOTER */
+
+.background-black{
+    background-color: black;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.footer-bar{
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+
+
