@@ -15,6 +15,11 @@ img{
     max-width: 100%;
 }
 
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
 /* style */
 
 .container{
@@ -23,6 +28,13 @@ img{
     padding: 10px;
 }
 
+.container-footer{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px;
+    border-top: 1px solid gray;
+
+}
 
 .row{
     display: flex;
@@ -82,6 +94,7 @@ img{
     flex-wrap: wrap;
 }
 
+
 .between-content{
     align-items: center;
     justify-content: space-between;
@@ -92,9 +105,10 @@ section{
     margin-bottom: 100px;
 }
 
-
-/* DEBUG */
-
+.bg-blue{
+    background-color: #5865F2;
+    color: white;
+}
 
 /* HEADER*/
 
@@ -119,6 +133,11 @@ header{
     background-size: contain;
 }
 
+
+.bg-stars{
+    background-image: url(../img/stars.svg);
+}
+
 .bg-white{
     background-color: white;
     color: black;
@@ -136,10 +155,6 @@ header{
 .black-col{
     width: 500px;
     height: 200px;
-}
-
-.bg-pink{
-    background-color: pink;
 }
 
 .bg-greenlight{
@@ -177,21 +192,16 @@ header{
 
 /* FOOTER */
 
-.background-black{
-    background-color: black;
-}
-
-.bg-red{
-    background-color: red;
-}
-
-.bg-green{
-    background-color: green;
-}
-
 .footer-bar{
     justify-content: space-between;
-    background-color: aquamarine;
+}
+
+.col-15 li{
+    padding: 5px;
+}
+
+.col-15 h3{
+    color: #5865F2;
 }
 
 
